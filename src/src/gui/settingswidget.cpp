@@ -65,9 +65,9 @@ struct SettingsWidget::PrivateObject final  // private
 };
 
 const QHash<SettingsWidget::SettingsKey, QVariant> SettingsWidget::PrivateObject::DefaultSettingsValues {
-    std::make_pair(SettingsWidget::SettingsKey::ServerURL, QVariant::fromValue(QString("qrc:///data/res/data_sample.json"))),
+    //std::make_pair(SettingsWidget::SettingsKey::ServerURL, QVariant::fromValue(QString("qrc:///data/res/data_sample.json"))),
     //std::make_pair(SettingsWidget::SettingsKey::ServerURL, QVariant::fromValue(QString("http://httpbin.org/ip"))),
-    //std::make_pair(SettingsWidget::SettingsKey::ServerURL, QVariant::fromValue(QString("http://95.171.8.60:20800"))),
+    std::make_pair(SettingsWidget::SettingsKey::ServerURL, QVariant::fromValue(QString("http://bnatest.free.beeceptor.com/"))),
     std::make_pair(SettingsWidget::SettingsKey::NormalColor, QVariant::fromValue(Qt::white)),
     std::make_pair(SettingsWidget::SettingsKey::NormalTextColor, QVariant::fromValue(Qt::black)),
     std::make_pair(SettingsWidget::SettingsKey::InvertedColor, QVariant::fromValue(Qt::black)),
