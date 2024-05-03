@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>res/style.qss</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>res/dialog-error.png</file>
+        <file>res/dialog-cancel.png</file>
+        <file>res/refresh-black.png</file>
+        <file>res/refresh-white.png</file>
+        <file>res/dots-white.png</file>
+        <file>res/dots-black.png</file>
+    </qresource>
+    <qresource prefix="/i18n">
+        <file>res/qtbase_ru.qm</file>
+        <file>res/DemoTest_ru.qm</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>res/data_sample.json</file>
+    </qresource>
+</RCC>

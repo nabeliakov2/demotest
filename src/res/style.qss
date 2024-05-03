@@ -1,0 +1,12 @@
+QPushButton#appControlButton:flat
+{
+    font: default;
+    background-color: transparent;
+    border: none;
+}
+
+QPushButton#appControlButton:flat:pressed
+{
+    background-color: #ff6700;
+    border: none;
+}
